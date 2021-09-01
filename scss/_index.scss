@@ -1,0 +1,21 @@
+/* Index */
+
+
+
+.fondoIndex{
+    background-image:url(../assets/images/fondo.jpg);
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    &__presentacion{
+        padding-top: 150px;
+        padding-left: 100px;
+        &__textIndex{
+            color:$texto;
+            padding-top: 10px;
+        }
+    }
+    
+}
+/* Fin index */

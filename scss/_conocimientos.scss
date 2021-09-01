@@ -1,0 +1,35 @@
+/* Conocimientos */
+    /* Mixin */
+    @mixin titulos ($color,$tamanio){
+        color: $color;
+        font-size: $tamanio;
+    }
+    .carousel{
+        width: 60%;
+        height: 60%;
+        margin-left: 20%;
+        &__imgCon{
+            width: 100px;
+            height: 400px;
+        }
+    }
+    .carousel-indicators{
+        display: flex;
+        position: relative;
+        top:145%
+    }
+    .carouselBotones{
+        margin:-50px -50px ;
+    }
+    .pCar{
+        @include titulos($texto,18px);
+        text-align: center;
+        padding: 15px; ;
+    }
+    .hCon{
+        padding: 15px;
+        text-align: center;
+        color:$texto;
+    }
+    
+/* Fin Conocimientos */

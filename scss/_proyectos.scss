@@ -1,0 +1,33 @@
+.pro{
+    &__titulo{
+        text-align: right;
+        color: peru;
+    }
+    &__parrafo{
+        text-align: right;
+        
+    }
+}
+.textPro{
+    text-align: center;
+    height: 250px;
+    opacity: 0%;
+}
+.proImg{
+    background-image: url(../assets/images/proyectos1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    border: 5px solid $texto;
+    margin: 0px 50px;
+    padding: 0px 0px;
+}
+.proImg2{
+    background-image: url(../assets/images/proyectos2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    border: 5px solid $texto;
+    margin: 0px 50px;
+    padding: 0px 0px;
+}

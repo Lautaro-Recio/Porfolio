@@ -1,0 +1,197 @@
+/* Linkeo de partials */
+    @import "colores";
+    @import "fuentes";
+    @import "nav";
+    @import "footer";
+    @import "conocimientos";
+    @import "contacto";
+    @import "index";
+    @import "quienSoy";
+    @import "proyectos";
+    @import "animaciones";
+    @import "404";
+/* Fin Linkeo de partials */
+
+/* Variables comunes */
+b{
+    font-weight: bold;
+}
+body{
+    background-color:$fondo;
+}
+.centro{
+    text-align: center;
+    padding: 50px;
+}
+p{
+    color:$texto;
+    text-align: center;
+    font-size: 18px;
+    padding: 5px; ;
+}
+h1,h2,h3 {
+    color:$texto;
+}
+
+/* Fin VC */
+
+
+
+
+
+/* Proyectos*/
+
+/* Fin Proyectos */
+
+
+
+
+
+/* Quien Soy */
+
+/* Fin Quien Soy */
+
+
+
+
+
+/* Viista mobile */
+@media only screen and (max-width:768px)
+{
+    /* Menu */
+    
+        .navbar-nav{
+            padding-left: 60%;
+        }
+        .borde{
+            border-right:solid 3px $fondo;
+            border-left: none;
+            
+        }
+        .derecha{
+            text-align: right;
+        }
+        .navbar-toggler{
+            margin-left: 84%;
+        }
+        .navCel{
+            padding: 10px;
+            display: flex;
+            position: relative;
+            bottom: 70px;
+        }
+    /* Fin de menu */
+
+    /* index */
+    .fondoIndex{
+        background-image:url(../assets/images/fondoCelu.jpg);
+        height: 600px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        &__presentacion{
+            padding-top: 0px;
+            padding-left: 0px;
+            background-image:$traslucido;
+            text-align: center;
+            &__textIndex{
+                color:$texto;
+                padding-top: 10px;
+            }
+        }
+        
+    } 
+        
+    /* Fin index */
+        
+    /* Conocimientos */
+    .carousel{
+        width: 60%;
+        height: 60%;
+        margin-left: 20%;
+        &__imgCon{
+            width: 150px;
+            height: 250px;
+        }
+    }
+    /* Fin de conocimientos */
+
+    /* Contacto */
+        form{
+            width: 100%;
+            height: 100%;
+            margin: 0% 0%
+        }
+        .inputs{
+            background-color: $fondo;
+            border: none;
+            width: 200px;
+            color: $texto;
+            
+        }
+        select{
+            background-color: $fondo;
+            border: none;
+            color: $texto;
+            padding: 15px;
+            font-size: 21px;
+        }
+        .boton{
+            text-align: center;
+            width: 45%;
+            height: 40px;
+            border: 1px solid black;
+            border-radius: 10px;
+            margin: 2%;
+            font-size: 22px;
+        }
+    /* Fin de contacto */
+
+    /* Proyectos */
+    .textPro{
+        text-align: center;
+        height: 250px;
+        opacity: 0%;
+    }
+    .proImg{
+        background-image: url(../assets/images/proyectos1celu.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 75%;
+        height: 350px;
+        border: 5px solid $texto;
+        margin: 25px 50px;
+        padding: 0px 0px;
+    }
+    .proImg2{
+        background-image: url(../assets/images/proyectos2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 350px;
+        width: 75%;
+        border: 5px solid $texto;
+        margin: 25px 50px;
+        padding: 0px 0px;
+    }
+    .textImg:hover{
+        width: 100%;
+        opacity: 100%;
+        animation-name: textPro;
+        animation-iteration-count: infinite;
+        animation-duration: 0.5s;
+        animation-timing-function: ease-in;
+        animation-delay: 0ms;
+        padding-top:350px ;
+        transition: 1s;
+    }    
+    /*FIn Proyectos */
+    /* Footer */
+        .imgFooter{
+            margin: 0% 16%;
+            width: 17%;
+            height: 60%;
+            padding: 5% 0%;
+        }
+    /* Fin de footer */
+    
+}

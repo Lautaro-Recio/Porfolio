@@ -1,0 +1,363 @@
+/* Linkeo de partials */
+/* Nav */
+.menu__logo {
+  width: 100px;
+  height: 80px;
+  padding: 10px; }
+
+.menu__vinculo {
+  width: 300px;
+  height: 50px;
+  color: #5efdc7;
+  padding: 5px 15px;
+  font-size: 18px;
+  text-decoration: none;
+  border-left: solid 3px #5efdc7; }
+
+/* Fin de Nav */
+.derecha {
+  display: flex;
+  padding-left: 350px; }
+
+.bgNav {
+  background-color: #5efdc7; }
+
+.navbar-nav {
+  padding-left: 53%;
+  display: flex;
+  position: relative;
+  bottom: 70px; }
+
+/* Footer */
+.imgFooter {
+  margin-left: 15%;
+  width: 7%;
+  height: 100%;
+  padding-bottom: 15px; }
+
+/* Fin Footer */
+/* Conocimientos */
+/* Mixin */
+.carousel {
+  width: 60%;
+  height: 60%;
+  margin-left: 20%; }
+  .carousel__imgCon {
+    width: 100px;
+    height: 400px; }
+
+.carousel-indicators {
+  display: flex;
+  position: relative;
+  top: 145%; }
+
+.carouselBotones {
+  margin: -50px -50px; }
+
+.pCar {
+  color: azure;
+  font-size: 18px;
+  text-align: center;
+  padding: 15px; }
+
+.hCon {
+  padding: 15px;
+  text-align: center;
+  color: azure; }
+
+/* Fin Conocimientos */
+/* Contacto */
+.form {
+  border-bottom: 1px solid azure;
+  color: azure;
+  font-size: 21px;
+  padding: 30px 0px; }
+
+.inputs {
+  background-color: #020435;
+  border: none;
+  width: 950px;
+  color: azure; }
+
+select {
+  background-color: #020435;
+  border: none;
+  width: 250px;
+  color: azure;
+  padding: 30px 15px;
+  font-size: 21px; }
+
+.formulario {
+  padding: 3% 1% 3% 7%;
+  width: 100%;
+  height: 100%; }
+  .formulario__opciones {
+    padding: 5px; }
+
+.boton {
+  text-align: center;
+  width: 30%;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 9%;
+  font-size: 22px; }
+
+/* Fin Contacto */
+/* Index */
+.fondoIndex {
+  background-image: url(../assets/images/fondo.jpg);
+  height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .fondoIndex__presentacion {
+    padding-top: 150px;
+    padding-left: 100px; }
+    .fondoIndex__presentacion__textIndex {
+      color: azure;
+      padding-top: 10px; }
+
+/* Fin index */
+/* Map */
+.imgQuien {
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+  margin-left: 43%; }
+
+.pro__titulo {
+  text-align: right;
+  color: peru; }
+
+.pro__parrafo {
+  text-align: right; }
+
+.textPro {
+  text-align: center;
+  height: 250px;
+  opacity: 0%; }
+
+.proImg {
+  background-image: url(../assets/images/proyectos1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+  border: 5px solid azure;
+  margin: 0px 50px;
+  padding: 0px 0px; }
+
+.proImg2 {
+  background-image: url(../assets/images/proyectos2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+  border: 5px solid azure;
+  margin: 0px 50px;
+  padding: 0px 0px; }
+
+/* Index */
+.animacion:hover {
+  width: 7%;
+  height: 100%;
+  animation-name: animacion;
+  animation-iteration-count: infinite;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-in;
+  animation-delay: 0ms; }
+
+@keyframes animacion {
+  33% {
+    transform: rotate(30deg); }
+  66% {
+    transform: rotate(-30deg); } }
+
+/* Contacto */
+.boton:hover {
+  width: 30%;
+  height: 40px;
+  animation: none;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+  animation-delay: 0s;
+  transition: 0.7s;
+  background-color: #5efdc7; }
+
+/* Proyectos */
+.textImg:hover {
+  width: 530px;
+  opacity: 100%;
+  animation-name: textPro;
+  animation-iteration-count: infinite;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in;
+  animation-delay: 0ms;
+  padding-top: 190px;
+  transition: 1s; }
+
+@keyframes textPro {
+  0% {
+    background-color: rgba(0, 0, 0, 0.5); }
+  100% {
+    background-color: rgba(0, 0, 0, 0.5); } }
+
+.error {
+  font-size: 50px;
+  text-align: center;
+  padding-top: 3%; }
+
+.aerror {
+  font-size: 50px;
+  text-align: center;
+  margin-top: 25%;
+  margin-left: 40%; }
+
+.eerror {
+  font-size: 50px;
+  text-align: center;
+  padding-top: 25%; }
+
+.eror {
+  background-image: url(../assets/images/fondo.jpg);
+  width: 66%;
+  height: 1200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+/* Fin Linkeo de partials */
+/* Variables comunes */
+b {
+  font-weight: bold; }
+
+body {
+  background-color: #020435; }
+
+.centro {
+  text-align: center;
+  padding: 50px; }
+
+p {
+  color: azure;
+  text-align: center;
+  font-size: 18px;
+  padding: 5px; }
+
+h1, h2, h3 {
+  color: azure; }
+
+/* Fin VC */
+/* Proyectos*/
+/* Fin Proyectos */
+/* Quien Soy */
+/* Fin Quien Soy */
+/* Viista mobile */
+@media only screen and (max-width: 768px) {
+  /* Menu */
+  .navbar-nav {
+    padding-left: 60%; }
+  .borde {
+    border-right: solid 3px #020435;
+    border-left: none; }
+  .derecha {
+    text-align: right; }
+  .navbar-toggler {
+    margin-left: 84%; }
+  .navCel {
+    padding: 10px;
+    display: flex;
+    position: relative;
+    bottom: 70px; }
+  /* Fin de menu */
+  /* index */
+  .fondoIndex {
+    background-image: url(../assets/images/fondoCelu.jpg);
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+    .fondoIndex__presentacion {
+      padding-top: 0px;
+      padding-left: 0px;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg");
+      text-align: center; }
+      .fondoIndex__presentacion__textIndex {
+        color: azure;
+        padding-top: 10px; }
+  /* Fin index */
+  /* Conocimientos */
+  .carousel {
+    width: 60%;
+    height: 60%;
+    margin-left: 20%; }
+    .carousel__imgCon {
+      width: 150px;
+      height: 250px; }
+  /* Fin de conocimientos */
+  /* Contacto */
+  form {
+    width: 100%;
+    height: 100%;
+    margin: 0% 0%; }
+  .inputs {
+    background-color: #020435;
+    border: none;
+    width: 200px;
+    color: azure; }
+  select {
+    background-color: #020435;
+    border: none;
+    color: azure;
+    padding: 15px;
+    font-size: 21px; }
+  .boton {
+    text-align: center;
+    width: 45%;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 2%;
+    font-size: 22px; }
+  /* Fin de contacto */
+  /* Proyectos */
+  .textPro {
+    text-align: center;
+    height: 250px;
+    opacity: 0%; }
+  .proImg {
+    background-image: url(../assets/images/proyectos1celu.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 75%;
+    height: 350px;
+    border: 5px solid azure;
+    margin: 25px 50px;
+    padding: 0px 0px; }
+  .proImg2 {
+    background-image: url(../assets/images/proyectos2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    width: 75%;
+    border: 5px solid azure;
+    margin: 25px 50px;
+    padding: 0px 0px; }
+  .textImg:hover {
+    width: 100%;
+    opacity: 100%;
+    animation-name: textPro;
+    animation-iteration-count: infinite;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in;
+    animation-delay: 0ms;
+    padding-top: 350px;
+    transition: 1s; }
+  /*FIn Proyectos */
+  /* Footer */
+  .imgFooter {
+    margin: 0% 16%;
+    width: 17%;
+    height: 60%;
+    padding: 5% 0%; }
+  /* Fin de footer */ }
