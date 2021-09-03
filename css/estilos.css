@@ -154,7 +154,12 @@ select {
   height: 250px;
   border: 5px solid azure;
   margin: 0px 50px;
-  padding: 0px 0px; }
+  padding: 0px 0px;
+  display: flex; }
+
+.cod {
+  text-decoration: none;
+  width: 530px; }
 
 /* Index */
 .animacion:hover {
