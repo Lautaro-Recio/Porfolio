@@ -84,24 +84,21 @@ h1,h2,h3 {
 
     /* index */
     .fondoIndex{
-        background-image:url(../assets/images/fondoCelu.jpg);
-        height: 600px;
+        background-image:url(../assets/images/fondo.jpg);
+        height: 800px;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         &__presentacion{
-            padding-top: 0px;
-            padding-left: 0px;
-            background-image:$traslucido;
-            text-align: center;
+            padding-top: 150px;
+            padding-left: 100px;
             &__textIndex{
                 color:$texto;
                 padding-top: 10px;
             }
         }
         
-    } 
-        
+    }
     /* Fin index */
         
     /* Conocimientos */
