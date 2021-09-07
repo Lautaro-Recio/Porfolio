@@ -333,10 +333,23 @@ select {
   /*FIn Proyectos */
   /* Footer */
   .imgFooter {
-    margin: 0% 16%;
-    width: 17%;
-    height: 60%;
+    margin: 0% 15%;
+    width: 19%;
+    height: 53%;
     padding: 5% 0%; }
+  .animacion:hover {
+    width: 19%;
+    height: 53%;
+    animation-name: animacion;
+    animation-iteration-count: infinite;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in;
+    animation-delay: 0ms; }
+  @keyframes animacion {
+    33% {
+      transform: rotate(30deg); }
+    66% {
+      transform: rotate(-30deg); } }
   /* Fin de footer */ }
 
 /* Fin Linkeo de partials */
@@ -365,110 +378,3 @@ h1, h2, h3 {
 /* Fin Proyectos */
 /* Quien Soy */
 /* Fin Quien Soy */
-/* Viista mobile */
-@media only screen and (max-width: 768px) {
-  /* Menu */
-  .navbar-nav {
-    padding-left: 60%; }
-  .borde {
-    border-right: solid 3px #020435;
-    border-left: none; }
-  .derecha {
-    text-align: right; }
-  .navbar-toggler {
-    margin-left: 84%; }
-  .navCel {
-    padding: 10px;
-    display: flex;
-    position: relative;
-    bottom: 70px; }
-  /* Fin de menu */
-  /* index */
-  .fondoIndex {
-    background-image: url(../assets/images/fondo.jpg);
-    height: 800px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; }
-    .fondoIndex__presentacion {
-      padding-top: 150px;
-      padding-left: 100px; }
-      .fondoIndex__presentacion__textIndex {
-        color: azure;
-        padding-top: 10px; }
-  /* Fin index */
-  /* Conocimientos */
-  .carousel {
-    width: 60%;
-    height: 60%;
-    margin-left: 20%; }
-    .carousel__imgCon {
-      width: 150px;
-      height: 250px; }
-  /* Fin de conocimientos */
-  /* Contacto */
-  form {
-    width: 100%;
-    height: 100%;
-    margin: 0% 0%; }
-  .inputs {
-    background-color: #020435;
-    border: none;
-    width: 200px;
-    color: azure; }
-  select {
-    background-color: #020435;
-    border: none;
-    color: azure;
-    padding: 15px;
-    font-size: 21px; }
-  .boton {
-    text-align: center;
-    width: 45%;
-    height: 40px;
-    border: 1px solid black;
-    border-radius: 10px;
-    margin: 2%;
-    font-size: 22px; }
-  /* Fin de contacto */
-  /* Proyectos */
-  .textPro {
-    text-align: center;
-    height: 250px;
-    opacity: 0%; }
-  .proImg {
-    background-image: url(../assets/images/proyectos1celu.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 75%;
-    height: 350px;
-    border: 5px solid azure;
-    margin: 25px 50px;
-    padding: 0px 0px; }
-  .proImg2 {
-    background-image: url(../assets/images/proyectos2.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 350px;
-    width: 75%;
-    border: 5px solid azure;
-    margin: 25px 50px;
-    padding: 0px 0px; }
-  .textImg:hover {
-    width: 100%;
-    opacity: 100%;
-    animation-name: textPro;
-    animation-iteration-count: infinite;
-    animation-duration: 0.5s;
-    animation-timing-function: ease-in;
-    animation-delay: 0ms;
-    padding-top: 350px;
-    transition: 1s; }
-  /*FIn Proyectos */
-  /* Footer */
-  .imgFooter {
-    margin: 0% 16%;
-    width: 17%;
-    height: 60%;
-    padding: 5% 0%; }
-  /* Fin de footer */ }

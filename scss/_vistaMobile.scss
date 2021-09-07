@@ -127,10 +127,24 @@
     /*FIn Proyectos */
     /* Footer */
         .imgFooter{
-            margin: 0% 16%;
-            width: 17%;
-            height: 60%;
+            margin: 0% 15%;
+            width: 19%;
+            height: 53%;
             padding: 5% 0%;
+        }
+        .animacion:hover{
+            width: 19%;
+            height: 53%;
+            animation-name: animacion;
+            animation-iteration-count: infinite;
+            animation-duration: 1.5s;
+            animation-timing-function: ease-in;
+            animation-delay: 0ms;
+        }
+        @keyframes animacion {
+            33%{transform:rotate(30deg)}
+            66%{transform:rotate(-30deg)}
+        
         }
     /* Fin de footer */
     
