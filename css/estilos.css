@@ -145,7 +145,8 @@ select {
   height: 250px;
   border: 5px solid azure;
   margin: 0px 50px;
-  padding: 0px 0px; }
+  padding: 0px 0px;
+  background-size: cover; }
 
 .proImg2 {
   background-image: url(../assets/images/proyectos2.png);
@@ -155,7 +156,8 @@ select {
   border: 5px solid azure;
   margin: 0px 50px;
   padding: 0px 0px;
-  display: flex; }
+  display: flex;
+  background-size: cover; }
 
 .cod {
   text-decoration: none;
@@ -232,7 +234,7 @@ select {
   background-size: cover; }
 
 /* Viista mobile */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   /* Menu */
   .navbar-nav {
     padding-left: 60%; }
@@ -252,7 +254,7 @@ select {
   /* index */
   .fondoIndex {
     background-image: url(../assets/images/fondoCelu.jpg);
-    height: 800px;
+    height: 700px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; }
@@ -317,19 +319,19 @@ select {
     background-image: url(../assets/images/proyectos1celu.png);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 75%;
-    height: 350px;
+    width: 80%;
+    height: 23rem;
     border: 5px solid azure;
-    margin: 25px 50px;
+    margin: 0px 40px;
     padding: 0px 0px; }
   .proImg2 {
     background-image: url(../assets/images/proyectos2.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 350px;
-    width: 75%;
+    width: 80%;
+    height: 23rem;
     border: 5px solid azure;
-    margin: 25px 50px;
+    margin: 40px;
     padding: 0px 0px; }
   .textImg:hover {
     width: 100%;
@@ -339,7 +341,7 @@ select {
     animation-duration: 0.5s;
     animation-timing-function: ease-in;
     animation-delay: 0ms;
-    padding-top: 350px;
+    padding-top: 23rem;
     transition: 1s; }
   /*FIn Proyectos */
   /* Footer */
@@ -362,13 +364,150 @@ select {
     66% {
       transform: rotate(-30deg); } }
   /* Fin de footer */
-  /* Quien Soy? */ }
+  /* Quien Soy? */
+  .imgQuien {
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    margin: 0% 30%; } }
 
-.imgQuien {
-  border-radius: 100%;
-  width: 150px;
-  height: 150px;
-  margin: 0% 30%; }
+/* Viista mobile */
+@media only screen and (min-width: 768px) and (max-width: 1023) {
+  /* Menu */
+  .navbar-nav {
+    padding-left: 60%; }
+  .borde {
+    border-right: solid 3px #020435;
+    border-left: none; }
+  .derecha {
+    text-align: right; }
+  .navbar-toggler {
+    margin-left: 84%; }
+  .navCel {
+    padding: 10px;
+    display: flex;
+    position: relative;
+    bottom: 70px; }
+  /* Fin de menu */
+  /* index */
+  .fondoIndex {
+    background-image: url(../assets/images/fondoCelu.jpg);
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+    .fondoIndex__presentacion {
+      text-align: center;
+      padding: 0px 65px;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg"); }
+      .fondoIndex__presentacion__textIndex {
+        color: azure;
+        padding-top: 10px; }
+  /* Fin index */
+  /* Conocimientos */
+  .carousel {
+    width: 60%;
+    height: 60%;
+    margin-left: 20%; }
+    .carousel__imgCon {
+      width: 150px;
+      height: 250px; }
+  /* Fin de conocimientos */
+  /* Contacto */
+  form {
+    width: 100%;
+    height: 100%;
+    margin: 0% 0%; }
+  .inputs {
+    background-color: #020435;
+    border: none;
+    width: 200px;
+    color: azure; }
+  select {
+    background-color: #020435;
+    border: none;
+    color: azure;
+    padding: 15px;
+    font-size: 21px; }
+  .boton {
+    text-align: center;
+    width: 45%;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 2%;
+    font-size: 18px; }
+  .boton:hover {
+    width: 45%;
+    height: 40px;
+    animation: none;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    transition: 0.7s;
+    background-color: #5efdc7; }
+  /* Fin de contacto */
+  /* Proyectos */
+  .textPro {
+    text-align: center;
+    height: 250px;
+    opacity: 0%; }
+  .proImg {
+    background-image: url(../assets/images/proyectos1celu.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80%;
+    height: 23rem;
+    border: 5px solid azure;
+    margin: 0px 40px;
+    padding: 0px 0px; }
+  .proImg2 {
+    background-image: url(../assets/images/proyectos2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80%;
+    height: 23rem;
+    border: 5px solid azure;
+    margin: 40px;
+    padding: 0px 0px; }
+  .textImg:hover {
+    width: 100%;
+    opacity: 100%;
+    animation-name: textPro;
+    animation-iteration-count: infinite;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in;
+    animation-delay: 0ms;
+    padding-top: 23rem;
+    transition: 1s; }
+  /*FIn Proyectos */
+  /* Footer */
+  .imgFooter {
+    margin: 0% 15%;
+    width: 19%;
+    height: 53%;
+    padding: 5% 0%; }
+  .animacion:hover {
+    width: 19%;
+    height: 53%;
+    animation-name: animacion;
+    animation-iteration-count: infinite;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in;
+    animation-delay: 0ms; }
+  @keyframes animacion {
+    33% {
+      transform: rotate(30deg); }
+    66% {
+      transform: rotate(-30deg); } }
+  /* Fin de footer */
+  /* Quien Soy? */
+  .imgQuien {
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    margin: 0% 30%; } }
 
 /* Fin Linkeo de partials */
 /* Variables comunes */
