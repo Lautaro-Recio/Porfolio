@@ -234,8 +234,20 @@ select {
   background-size: cover; }
 
 /* Viista mobile */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 577px) {
   /* Menu */
+  .menu__logo {
+    width: 100px;
+    height: 80px;
+    padding: 10px; }
+  .menu__vinculo {
+    width: 300px;
+    height: 50px;
+    color: #5efdc7;
+    padding: 5px 15px;
+    font-size: 18px;
+    text-decoration: none;
+    border-right: 3px solid #5efdc7; }
   .navbar-nav {
     padding-left: 60%; }
   .borde {
@@ -250,11 +262,14 @@ select {
     display: flex;
     position: relative;
     bottom: 70px; }
+  .nav-item {
+    border-right: 3px solid #5efdc7; }
   /* Fin de menu */
   /* index */
   .fondoIndex {
     background-image: url(../assets/images/fondoCelu.jpg);
-    height: 700px;
+    height: 430px;
+    width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; }
@@ -322,7 +337,7 @@ select {
     width: 80%;
     height: 23rem;
     border: 5px solid azure;
-    margin: 0px 40px;
+    margin: 40px;
     padding: 0px 0px; }
   .proImg2 {
     background-image: url(../assets/images/proyectos2.png);
@@ -372,33 +387,50 @@ select {
     margin: 0% 30%; } }
 
 /* Viista mobile */
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
+@media only screen and (min-width: 578px) and (max-width: 768px) {
   /* Menu */
+  .menu__logo {
+    width: 100px;
+    height: 80px;
+    padding: 10px; }
+  .menu__vinculo {
+    width: 300px;
+    height: 50px;
+    color: #5efdc7;
+    padding: 5px 15px;
+    font-size: 23px;
+    text-decoration: none;
+    border-right: 3px solid #5efdc7; }
   .navbar-nav {
-    padding-left: 60%; }
+    padding-left: 60%;
+    border-right: 3px solid #5efdc7; }
   .borde {
     border-right: solid 3px #020435;
     border-left: none; }
   .derecha {
     text-align: right; }
   .navbar-toggler {
-    margin-left: 84%; }
+    margin-left: 91%; }
   .navCel {
-    padding: 10px;
+    padding: 14px;
     display: flex;
     position: relative;
     bottom: 70px; }
+  .nav-item {
+    height: 40px; }
   /* Fin de menu */
   /* index */
   .fondoIndex {
     background-image: url(../assets/images/fondoCelu.jpg);
-    height: 700px;
+    height: 560px;
+    width: 80%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; }
     .fondoIndex__presentacion {
       text-align: center;
-      padding: 0px 65px;
+      padding: 0px 100px;
+      margin-top: 20%;
       background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg"); }
       .fondoIndex__presentacion__textIndex {
         color: azure;
@@ -411,7 +443,7 @@ select {
     margin-left: 20%; }
     .carousel__imgCon {
       width: 150px;
-      height: 250px; }
+      height: 450px; }
   /* Fin de conocimientos */
   /* Contacto */
   form {
@@ -457,16 +489,16 @@ select {
     background-image: url(../assets/images/proyectos1celu.png);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 80%;
+    width: 38%;
     height: 23rem;
     border: 5px solid azure;
-    margin: 0px 40px;
+    margin: 40px;
     padding: 0px 0px; }
   .proImg2 {
     background-image: url(../assets/images/proyectos2.png);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 80%;
+    width: 38%;
     height: 23rem;
     border: 5px solid azure;
     margin: 40px;
@@ -484,9 +516,9 @@ select {
   /*FIn Proyectos */
   /* Footer */
   .imgFooter {
-    margin: 0% 15%;
-    width: 19%;
-    height: 53%;
+    margin: 0% 5%;
+    width: 14%;
+    height: 95%;
     padding: 5% 0%; }
   .animacion:hover {
     width: 19%;
@@ -507,7 +539,7 @@ select {
     border-radius: 100%;
     width: 150px;
     height: 150px;
-    margin: 0% 30%; } }
+    margin: 0% 40%; } }
 
 /* Fin Linkeo de partials */
 /* Variables comunes */
