@@ -9,10 +9,25 @@
   width: 300px;
   height: 50px;
   color: #5efdc7;
-  padding: 5px 15px;
+  padding: 5px 5%;
   font-size: 18px;
   text-decoration: none;
   border-left: solid 3px #5efdc7; }
+
+.nav-item1 {
+  width: 9%; }
+
+.nav-item2 {
+  width: 14%; }
+
+.nav-item3 {
+  width: 20%; }
+
+.nav-item4 {
+  width: 18%; }
+
+.nav-item5 {
+  width: 14%; }
 
 /* Fin de Nav */
 .derecha {
@@ -23,17 +38,26 @@
   background-color: #5efdc7; }
 
 .navbar-nav {
-  padding-left: 53%;
   display: flex;
   position: relative;
-  bottom: 70px; }
+  bottom: 70px;
+  width: 100%;
+  margin-left: 10%; }
 
 /* Footer */
 .imgFooter {
   margin-left: 15%;
-  width: 7%;
+  width: 8%;
   height: 100%;
   padding-bottom: 15px; }
+
+.yoFoot {
+  display: flex;
+  position: relative; }
+
+.yo {
+  left: 50%;
+  padding-top: 5%; }
 
 /* Fin Footer */
 /* Conocimientos */
@@ -107,7 +131,7 @@ select {
 /* Index */
 .fondoIndex {
   background-image: url(../assets/images/fondo.jpg);
-  height: 800px;
+  height: 33rem;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
@@ -144,7 +168,7 @@ select {
   background-size: cover;
   height: 250px;
   border: 5px solid azure;
-  margin: 0px 50px;
+  margin: 0px 4%;
   padding: 0px 0px;
   background-size: cover; }
 
@@ -154,7 +178,7 @@ select {
   background-size: cover;
   height: 250px;
   border: 5px solid azure;
-  margin: 0px 50px;
+  margin: 0px 4%;
   padding: 0px 0px;
   display: flex;
   background-size: cover; }
@@ -165,8 +189,8 @@ select {
 
 /* Index */
 .animacion:hover {
-  width: 7%;
-  height: 100%;
+  width: 9%;
+  height: 75%;
   animation-name: animacion;
   animation-iteration-count: infinite;
   animation-duration: 1.5s;
@@ -193,7 +217,7 @@ select {
 
 /* Proyectos */
 .textImg:hover {
-  width: 530px;
+  width: 101%;
   opacity: 100%;
   animation-name: textPro;
   animation-iteration-count: infinite;
