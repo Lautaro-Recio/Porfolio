@@ -32,10 +32,12 @@
 .nav-item5{
     width: 14%;
 }
+
 /* Fin de Nav */
 .derecha{
     display: flex;
     padding-left: 350px;
+    padding-right: 0px;
 }
 .bgNav{
     background-color: $celeste;
