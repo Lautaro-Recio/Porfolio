@@ -275,15 +275,13 @@ select {
     color: #5efdc7;
     padding: 5px 15px;
     font-size: 18px;
-    text-decoration: none;
-    border-right: 3px solid #5efdc7; }
+    text-decoration: none; }
   .navbar-nav {
-    padding-left: 60%; }
+    padding-left: 58%;
+    border-right: 3px solid #5efdc7;
+    margin: 5% 0% 0% 3%; }
   .borde {
-    border-right: solid 3px #020435;
     border-left: none; }
-  .derecha {
-    text-align: right; }
   .navbar-toggler {
     margin-left: 84%; }
   .navCel {
@@ -291,8 +289,21 @@ select {
     display: flex;
     position: relative;
     bottom: 70px; }
-  .nav-item {
-    border-right: 3px solid #5efdc7; }
+  .nav-item1 {
+    margin-left: 72%;
+    padding: 1%; }
+  .nav-item2 {
+    margin-left: 59%;
+    padding: 1%; }
+  .nav-item3 {
+    margin-left: 41%;
+    padding: 1%; }
+  .nav-item4 {
+    margin-left: 69%;
+    padding: 1%; }
+  .nav-item5 {
+    margin-left: 63%;
+    padding: 1%; }
   /* Fin de menu */
   /* index */
   .fondoIndex {
