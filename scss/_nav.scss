@@ -1,51 +1,20 @@
-/* Nav */
-.menu{
-    &__logo{
-        width: 100px;
-        height: 80px;
-        padding: 10px;
-    }
-    &__vinculo{
-        width: 300px;
-        height: 50px;
-        color: $celeste;
-        padding:5px 5%;
-        font-size: 18px;
-        text-decoration: none;
-        border-left:solid 3px $celeste;   
-    }
-    
-
+/* Nav */   
+.logo1{
+    width: 70%;
+    padding: 5%;
 }
-.nav-item1{
-    width: 9%;
-}
-.nav-item2{
-    width: 14%;
-}
-.nav-item3{
-    width: 20%;
-}
-.nav-item4{
-    width: 18%;
-}
-.nav-item5{
-    width: 14%;
-}
-
-/* Fin de Nav */
-.derecha{
-    display: flex;
-    padding-left: 350px;
-    padding-right: 0px;
+.vinculo{
+    color: $celeste;
+    font-size: 20px;
+    text-decoration: none;
+    border-left:solid 3px $celeste;
+    padding:0px 20px ;
 }
 .bgNav{
-    background-color: $celeste;
+    background-color: $fondo;
 }
-.navbar-nav{
-    display: flex;
-    position: relative;
-    bottom: 70px;
-    width: 100%;
-    margin-left: 10%;
-}
+
+
+
+/* Fin de Nav */
+

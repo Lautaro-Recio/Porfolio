@@ -1,50 +1,20 @@
 /* Linkeo de partials */
 /* Nav */
-.menu__logo {
-  width: 100px;
-  height: 80px;
-  padding: 10px; }
+.logo1 {
+  width: 70%;
+  padding: 5%; }
 
-.menu__vinculo {
-  width: 300px;
-  height: 50px;
+.vinculo {
   color: #5efdc7;
-  padding: 5px 5%;
-  font-size: 18px;
+  font-size: 20px;
   text-decoration: none;
-  border-left: solid 3px #5efdc7; }
-
-.nav-item1 {
-  width: 9%; }
-
-.nav-item2 {
-  width: 14%; }
-
-.nav-item3 {
-  width: 20%; }
-
-.nav-item4 {
-  width: 18%; }
-
-.nav-item5 {
-  width: 14%; }
-
-/* Fin de Nav */
-.derecha {
-  display: flex;
-  padding-left: 350px;
-  padding-right: 0px; }
+  border-left: solid 3px #5efdc7;
+  padding: 0px 20px; }
 
 .bgNav {
-  background-color: #5efdc7; }
+  background-color: #020435; }
 
-.navbar-nav {
-  display: flex;
-  position: relative;
-  bottom: 70px;
-  width: 100%;
-  margin-left: 10%; }
-
+/* Fin de Nav */
 /* Footer */
 .imgFooter {
   margin-left: 15%;
@@ -59,6 +29,9 @@
 .yo {
   left: 50%;
   padding-top: 5%; }
+
+.logo2 {
+  width: 100%; }
 
 /* Fin Footer */
 /* Conocimientos */
@@ -265,45 +238,26 @@ select {
 /* Viista mobile */
 @media only screen and (max-width: 577px) {
   /* Menu */
-  .menu__logo {
-    width: 100px;
-    height: 80px;
-    padding: 10px; }
-  .menu__vinculo {
-    width: 300px;
-    height: 50px;
+  .logo1 {
+    width: 50%;
+    padding: 5%; }
+  .vinculo {
     color: #5efdc7;
-    padding: 5px 15px;
-    font-size: 18px;
-    text-decoration: none; }
-  .navbar-nav {
-    padding-left: 58%;
-    border-right: 3px solid #5efdc7;
-    margin: 5% 0% 0% 3%; }
-  .borde {
-    border-left: none; }
-  .navbar-toggler {
-    margin-left: 84%; }
-  .navCel {
-    padding: 10px;
-    display: flex;
+    font-size: 20px;
+    text-decoration: none;
+    border-left: none;
+    padding: 0px 20px; }
+  .bgNav {
+    background-color: #020435;
+    margin-bottom: 10%; }
+  .navbar-toggler-icon {
     position: relative;
-    bottom: 70px; }
-  .nav-item1 {
-    margin-left: 72%;
-    padding: 1%; }
-  .nav-item2 {
-    margin-left: 59%;
-    padding: 1%; }
-  .nav-item3 {
-    margin-left: 41%;
-    padding: 1%; }
-  .nav-item4 {
-    margin-left: 69%;
-    padding: 1%; }
-  .nav-item5 {
-    margin-left: 63%;
-    padding: 1%; }
+    background-color: #5efdc7;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px; }
+  .navbar-nav {
+    border-right: 3px solid #5efdc7; }
   /* Fin de menu */
   /* index */
   .fondoIndex {
@@ -316,7 +270,8 @@ select {
     .fondoIndex__presentacion {
       text-align: center;
       padding: 0px 65px;
-      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg"); }
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg");
+      margin-top: 20%; }
       .fondoIndex__presentacion__textIndex {
         color: azure;
         padding-top: 10px; }
@@ -401,13 +356,13 @@ select {
   /*FIn Proyectos */
   /* Footer */
   .imgFooter {
-    margin: 0% 15%;
-    width: 19%;
-    height: 53%;
-    padding: 5% 0%; }
+    margin: 7% 5%;
+    width: 14%;
+    height: 66%;
+    padding: 0%; }
   .animacion:hover {
-    width: 19%;
-    height: 53%;
+    width: 14%;
+    height: 66%;
     animation-name: animacion;
     animation-iteration-count: infinite;
     animation-duration: 1.5s;
@@ -418,6 +373,17 @@ select {
       transform: rotate(30deg); }
     66% {
       transform: rotate(-30deg); } }
+  .logo2 {
+    width: 50%;
+    margin: 0% 87%; }
+  .tituloFoot {
+    padding: 0px;
+    text-align: center; }
+  .yo {
+    position: relative;
+    left: 28%;
+    bottom: 30%;
+    width: 200px; }
   /* Fin de footer */
   /* Quien Soy? */
   .imgQuien {
