@@ -75,16 +75,17 @@
   border-bottom: 1px solid azure;
   color: azure;
   font-size: 21px;
-  padding: 30px 0px; }
+  padding: 14px 0px;
+  width: 100%; }
 
 .inputs {
-  background-color: #020435;
+  background-color: rgba(99, 251, 200, 0);
   border: none;
   width: 100%;
   color: azure; }
 
 select {
-  background-color: #020435;
+  background-color: rgba(99, 251, 200, 0);
   border: none;
   width: 250px;
   color: azure;
@@ -94,9 +95,12 @@ select {
 .formulario {
   padding: 3% 1% 3% 7%;
   width: 100%;
-  height: 100%; }
+  height: 100%;
+  background-image: url(../assets/images/fondoContacto.png);
+  background-size: cover;
+  background-repeat: no-repeat; }
   .formulario__opciones {
-    padding: 5px; }
+    padding: 4px; }
 
 .boton {
   text-align: center;
@@ -114,7 +118,7 @@ select {
 .fondoTraslucidoCon {
   background-color: rgba(99, 251, 200, 0.5);
   border-radius: 30px;
-  margin: 0% 3%; }
+  margin: 0%; }
 
 /* Fin Contacto */
 /* Index */
