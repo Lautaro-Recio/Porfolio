@@ -4,7 +4,7 @@
 
 .fondoIndex{
     background-image:url(../assets/images/fondo.jpg);
-    height: 33rem;
+    height: 38rem;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -17,5 +17,14 @@
         }
     }
     
+}
+.imgRob{
+    background-size: cover;
+    width: 100%;
+}
+.fondoTraslucidoIndex{
+    background-color:rgba(99, 251, 200, 0.5);
+    border-radius: 30px;
+    margin: 0% 15%;
 }
 /* Fin index */

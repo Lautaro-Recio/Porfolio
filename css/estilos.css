@@ -28,9 +28,10 @@
 
 .yo {
   left: 50%;
-  padding-top: 5%; }
+  padding-top: 10%; }
 
 .logo2 {
+  margin-top: 21%;
   width: 100%; }
 
 /* Fin Footer */
@@ -62,6 +63,11 @@
   padding: 15px;
   text-align: center;
   color: azure; }
+
+.fondoTraslucidoConocimientos {
+  background-color: rgba(99, 251, 200, 0.5);
+  border-radius: 30px;
+  margin: 0%; }
 
 /* Fin Conocimientos */
 /* Contacto */
@@ -103,13 +109,18 @@ select {
 
 .imgCon {
   height: 100%;
-  width: 110%; }
+  width: 100%; }
+
+.fondoTraslucidoCon {
+  background-color: rgba(99, 251, 200, 0.5);
+  border-radius: 30px;
+  margin: 0% 3%; }
 
 /* Fin Contacto */
 /* Index */
 .fondoIndex {
   background-image: url(../assets/images/fondo.jpg);
-  height: 33rem;
+  height: 38rem;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
@@ -120,13 +131,28 @@ select {
       color: azure;
       padding-top: 10px; }
 
+.imgRob {
+  background-size: cover;
+  width: 100%; }
+
+.fondoTraslucidoIndex {
+  background-color: rgba(99, 251, 200, 0.5);
+  border-radius: 30px;
+  margin: 0% 15%; }
+
 /* Fin index */
 /* Map */
 .imgQuien {
   border-radius: 100%;
   width: 150px;
   height: 150px;
-  margin-left: 43%; }
+  margin-left: 39%;
+  margin-top: 5%; }
+
+.fondoTraslucidoQuien {
+  background-color: rgba(99, 251, 200, 0.5);
+  border-radius: 30px;
+  margin: 0% 15%; }
 
 .pro__titulo {
   text-align: right;
@@ -164,6 +190,11 @@ select {
 .cod {
   text-decoration: none;
   width: 530px; }
+
+.fondoTraslucidoPro {
+  background-color: rgba(99, 251, 200, 0.5);
+  border-radius: 30px;
+  margin: 0%; }
 
 /* Index */
 .animacion:hover {
@@ -358,11 +389,11 @@ select {
   .imgFooter {
     margin: 7% 5%;
     width: 14%;
-    height: 66%;
+    height: 50%;
     padding: 0%; }
   .animacion:hover {
     width: 14%;
-    height: 66%;
+    height: 50%;
     animation-name: animacion;
     animation-iteration-count: infinite;
     animation-duration: 1.5s;
@@ -384,6 +415,11 @@ select {
     left: 28%;
     bottom: 30%;
     width: 200px; }
+  .fondoTraslucido {
+    background-color: rgba(99, 251, 200, 0.5);
+    border-radius: 30px;
+    padding: 5%;
+    margin: 0% 5%; }
   /* Fin de footer */
   /* Quien Soy? */
   .imgQuien {
