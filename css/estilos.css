@@ -326,12 +326,12 @@ select {
     height: 100%;
     margin: 0% 0%; }
   .inputs {
-    background-color: #020435;
+    background-color: rgba(99, 251, 200, 0);
     border: none;
     width: 200px;
     color: azure; }
   select {
-    background-color: #020435;
+    background-color: rgba(99, 251, 200, 0);
     border: none;
     color: azure;
     padding: 15px;
@@ -354,6 +354,15 @@ select {
     animation-delay: 0s;
     transition: 0.7s;
     background-color: #5efdc7; }
+  .formulario {
+    padding: 3% 1% 3% 7%;
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/images/fondoContacto.png);
+    background-size: contain;
+    background-repeat: no-repeat; }
+    .formulario__opciones {
+      padding: 4px; }
   /* Fin de contacto */
   /* Proyectos */
   .textPro {
@@ -430,7 +439,11 @@ select {
     border-radius: 100%;
     width: 150px;
     height: 150px;
-    margin: 0% 30%; } }
+    margin: 0% 28%; }
+  .fondoTraslucidoQuien {
+    background-color: rgba(99, 251, 200, 0.5);
+    border-radius: 30px;
+    margin: 0% 5%; } }
 
 /* Viista mobile */
 @media only screen and (min-width: 578px) and (max-width: 768px) {
