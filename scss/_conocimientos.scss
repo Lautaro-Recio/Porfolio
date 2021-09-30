@@ -25,6 +25,8 @@
         @include titulos($texto,18px);
         text-align: center;
         padding: 15px; ;
+        width: 360px;
+        height: 160px;
     }
     .hCon{
         padding: 15px;
