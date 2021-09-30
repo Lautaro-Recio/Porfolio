@@ -142,7 +142,10 @@ select {
 .fondoTraslucidoIndex {
   background-color: rgba(99, 251, 200, 0.5);
   border-radius: 30px;
-  margin: 0% 15%; }
+  margin: 0% 1%; }
+
+.pIndex {
+  padding: 6%; }
 
 /* Fin index */
 /* Map */
@@ -297,7 +300,7 @@ select {
   /* index */
   .fondoIndex {
     background-image: url(../assets/images/fondoCelu.jpg);
-    height: 430px;
+    height: 500px;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
