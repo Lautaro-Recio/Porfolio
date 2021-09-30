@@ -118,7 +118,7 @@ select {
 .fondoTraslucidoCon {
   background-color: rgba(99, 251, 200, 0.5);
   border-radius: 30px;
-  margin: 0%; }
+  margin: 10% 0%; }
 
 /* Fin Contacto */
 /* Index */
@@ -153,7 +153,7 @@ select {
   border-radius: 100%;
   width: 150px;
   height: 150px;
-  margin-left: 39%;
+  margin: 0% 42%;
   margin-top: 5%; }
 
 .fondoTraslucidoQuien {
@@ -421,7 +421,7 @@ select {
     66% {
       transform: rotate(-30deg); } }
   .logo2 {
-    width: 50%;
+    width: 30%;
     margin: 0% 87%; }
   .tituloFoot {
     padding: 0px;
