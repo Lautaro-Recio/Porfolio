@@ -2,7 +2,7 @@
     .imgFooter{
         margin-left: 15%;
         width: 8%;
-        height: 100%;
+        height: 40%;
         padding-bottom: 15px;
     }
     .yoFoot{
@@ -10,12 +10,13 @@
         position: relative;
     }
     .yo{
-        left: 50%;
-        padding-top: 10%;
+        position: relative;
+        left: 35%;
+        bottom: 25%;
     }
     .logo2{
-        margin-top: 21%;
-        width: 100%;
+        margin-top: 1%;
+        width:  25%;
     }
     .tituloFoot{
         padding: 15px 0px;
@@ -23,8 +24,5 @@
     }
     a{
         text-decoration: auto;
-    }
-    .foot{
-        height: 100%;
     }
 /* Fin Footer */

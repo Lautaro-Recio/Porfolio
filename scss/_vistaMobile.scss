@@ -169,17 +169,14 @@
     /*FIn Proyectos */
     /* Footer */
         .imgFooter{
-            margin: 7% 1%;
-            width: 10%;
-            height: 50%;
+            margin: 7% 4%;
+            width: 16%;
+            height: 33%;
             padding:0%;
-            position: relative;
-            left: 50%;
-            bottom: 107%;
         }
         .animacion:hover{
-            width: 14%;
-            height: 50%;
+            width: 16%;
+            height: 33%;
             animation-name: animacion;
             animation-iteration-count: infinite;
             animation-duration: 1.5s;
@@ -192,8 +189,8 @@
         
         }
         .logo2{
-            width:30%;
-            margin: 0% 10%;
+            width:20%;
+            margin: 0% 20%;
         }
         .tituloFoot{
             padding-top: 15px;
@@ -201,19 +198,15 @@
         }
         .yo{
             position: relative;
-            left: -70%;
-            bottom: 30%;
-            width: 80px;
-            font-size: 25px;
+            left: 45%;
+            bottom: 25%;
+            width: 165px;
         }
         .fondoTraslucido{
             background-color:rgba(99, 251, 200, 0.5);
             border-radius: 30px;
             padding: 5%;
             margin: 0% 5%;
-        }
-        .divFoot{
-            width: 50%;
         }
     /* Fin de footer */
     

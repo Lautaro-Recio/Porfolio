@@ -1,12 +1,14 @@
 /* Map */
-
+.imgCentro{
+    display: flex;
+    justify-content: space-around;
+}
 
 
 .imgQuien{
     border-radius: 100%;
     width: 35%;
     height: 80%;
-    margin: 5% 33%;
 }
 .fondoTraslucidoQuien{
     background-color:rgba(99, 251, 200, 0.5);
