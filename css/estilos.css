@@ -163,14 +163,16 @@ select {
 
 /* Fin index */
 /* Map */
-.imgCentro {
-  display: flex;
-  justify-content: space-around; }
-
 .imgQuien {
   border-radius: 100%;
-  width: 35%;
-  height: 80%; }
+  width: 200px;
+  height: 200px;
+  margin: 5% 39%; }
+
+.centroQuien {
+  text-align: center;
+  padding: 20px;
+  margin-top: 15px; }
 
 .fondoTraslucidoQuien {
   background-color: rgba(99, 251, 200, 0.5);
@@ -626,13 +628,13 @@ select {
   /*FIn Proyectos */
   /* Footer */
   .imgFooter {
-    margin: 0% 5%;
-    width: 14%;
-    height: 95%;
-    padding: 5% 0%; }
+    margin: 7% 7%;
+    width: 10%;
+    height: 30%;
+    padding: 0%; }
   .animacion:hover {
-    width: 19%;
-    height: 53%;
+    width: 10%;
+    height: 30%;
     animation-name: animacion;
     animation-iteration-count: infinite;
     animation-duration: 1.5s;
@@ -643,6 +645,22 @@ select {
       transform: rotate(30deg); }
     66% {
       transform: rotate(-30deg); } }
+  .logo2 {
+    width: 14%;
+    margin: 0% 30%; }
+  .tituloFoot {
+    padding-top: 15px;
+    text-align: center; }
+  .yo {
+    position: relative;
+    left: 45%;
+    bottom: 25%;
+    width: 165px; }
+  .fondoTraslucido {
+    background-color: rgba(99, 251, 200, 0.5);
+    border-radius: 30px;
+    padding: 5%;
+    margin: 0% 5%; }
   /* Fin de footer */
   /* Quien Soy? */
   .imgQuien {

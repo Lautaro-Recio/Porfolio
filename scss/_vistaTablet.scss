@@ -163,26 +163,46 @@
     
     /*FIn Proyectos */
     /* Footer */
-        .imgFooter{
-            margin: 0% 5%;
-            width: 14%;
-            height: 95%;
-            padding: 5% 0%;
-        }
-        .animacion:hover{
-            width: 19%;
-            height: 53%;
-            animation-name: animacion;
-            animation-iteration-count: infinite;
-            animation-duration: 1.5s;
-            animation-timing-function: ease-in;
-            animation-delay: 0ms;
-        }
-        @keyframes animacion {
-            33%{transform:rotate(30deg)}
-            66%{transform:rotate(-30deg)}
-        
-        }
+    .imgFooter{
+        margin: 7% 7%;
+        width: 10%;
+        height: 30%;
+        padding:0%;
+    }
+    .animacion:hover{
+        width: 10%;
+        height: 30%;
+        animation-name: animacion;
+        animation-iteration-count: infinite;
+        animation-duration: 1.5s;
+        animation-timing-function: ease-in;
+        animation-delay: 0ms;
+    }
+    @keyframes animacion {
+        33%{transform:rotate(30deg)}
+        66%{transform:rotate(-30deg)}
+    
+    }
+    .logo2{
+        width:14%;
+        margin: 0% 30%;
+    }
+    .tituloFoot{
+        padding-top: 15px;
+        text-align: center;
+    }
+    .yo{
+        position: relative;
+        left: 45%;
+        bottom: 25%;
+        width: 165px;
+    }
+    .fondoTraslucido{
+        background-color:rgba(99, 251, 200, 0.5);
+        border-radius: 30px;
+        padding: 5%;
+        margin: 0% 5%;
+    }
     /* Fin de footer */
     /* Quien Soy? */
     .imgQuien{
